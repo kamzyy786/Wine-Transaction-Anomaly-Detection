@@ -6,6 +6,15 @@ The current Milestone 2 study uses a supervised wine chemistry component followe
 
 The chemistry observations are the unchanged UCI Wine dataset from Milestone 1. All customers, purchase events, coordinates and transaction anomaly labels are synthetic. An anomaly flag requests human review; it is not proof of fraud, authenticity or safety.
 
+## Final milestone
+
+[Milestone 4](milestone4/README.md) adds a CPU demo of continual learning,
+drift monitoring, and simulated human review with active, random, and
+full-review comparisons. It saves before/after metrics, timing, a review
+audit, a trajectory plot, and versioned checkpoints. The
+[Milestone 3 service and robustness tests](milestone3/README.md) reproduce
+the previous deployment evaluation.
+
 ## Run the designed system
 
 Use Python 3.12. From the repository root:

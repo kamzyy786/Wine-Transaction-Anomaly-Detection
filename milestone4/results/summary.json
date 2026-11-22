@@ -1,0 +1,214 @@
+{
+  "seed": 64504,
+  "hardware": {
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "logical_cpus": 9,
+    "ram_gib": 9.733646392822266,
+    "torch_threads": 1,
+    "python": "3.12.14",
+    "pytorch": "2.15.0+cpu",
+    "device": "CPU; no GPU used"
+  },
+  "versions": [
+    {
+      "version": "full-c3",
+      "parent": "m2",
+      "sha256": "1da0be750a014059efb17ca0eb3ee95530aff13e75810f830e605bc08e92c93a"
+    },
+    {
+      "version": "full-c4",
+      "parent": "full-c3",
+      "sha256": "d63f309f80aeb7b4353a4cc8feca2fd6fad517ce3ff2242401e54e99432bff82"
+    },
+    {
+      "version": "full-c5",
+      "parent": "full-c4",
+      "sha256": "f332e510466a531b3bf719b269879d7fadbf9fd2604b80ab1c28ef03a5eb7152"
+    }
+  ],
+  "final": {
+    "frozen": {
+      "version": "m2",
+      "clean": {
+        "precision": 0.4742268041237113,
+        "recall": 0.32857142857142857,
+        "macro_f1": 0.6734551953503622,
+        "auroc": 0.8345162618361465,
+        "average_precision": 0.4413391278637972,
+        "false_alarms": 102,
+        "misses": 188,
+        "n": 3750,
+        "positive": 280
+      },
+      "perturbed": {
+        "precision": 0.4845360824742268,
+        "recall": 0.3357142857142857,
+        "macro_f1": 0.6779592616213918,
+        "auroc": 0.8256772334293948,
+        "average_precision": 0.4245748773297288,
+        "false_alarms": 100,
+        "misses": 186,
+        "n": 3750,
+        "positive": 280
+      },
+      "drift": {
+        "precision": 0.4955357142857143,
+        "recall": 0.3964285714285714,
+        "macro_f1": 0.7000837213101364,
+        "auroc": 0.679134417455743,
+        "average_precision": 0.3492566240244187,
+        "false_alarms": 113,
+        "misses": 169,
+        "n": 3750,
+        "positive": 280
+      },
+      "efficiency": {
+        "p50_ms": 0.03797899995561238,
+        "p90_ms": 0.05493029995022883,
+        "rows_per_second": 21526.910661838534,
+        "process_rss_mib": 416.19921875,
+        "rss_before_mib": 416.19921875,
+        "parameter_bytes": 880
+      },
+      "checkpoint_bytes": 14033
+    },
+    "active64": {
+      "version": "m2",
+      "clean": {
+        "precision": 0.4742268041237113,
+        "recall": 0.32857142857142857,
+        "macro_f1": 0.6734551953503622,
+        "auroc": 0.8345162618361465,
+        "average_precision": 0.4413391278637972,
+        "false_alarms": 102,
+        "misses": 188,
+        "n": 3750,
+        "positive": 280
+      },
+      "perturbed": {
+        "precision": 0.4845360824742268,
+        "recall": 0.3357142857142857,
+        "macro_f1": 0.6779592616213918,
+        "auroc": 0.8256772334293948,
+        "average_precision": 0.4245748773297288,
+        "false_alarms": 100,
+        "misses": 186,
+        "n": 3750,
+        "positive": 280
+      },
+      "drift": {
+        "precision": 0.4955357142857143,
+        "recall": 0.3964285714285714,
+        "macro_f1": 0.7000837213101364,
+        "auroc": 0.679134417455743,
+        "average_precision": 0.3492566240244187,
+        "false_alarms": 113,
+        "misses": 169,
+        "n": 3750,
+        "positive": 280
+      },
+      "efficiency": {
+        "p50_ms": 0.0405780000392042,
+        "p90_ms": 0.057886999991296775,
+        "rows_per_second": 17093.67142196887,
+        "process_rss_mib": 416.20703125,
+        "rss_before_mib": 416.20703125,
+        "parameter_bytes": 880
+      },
+      "checkpoint_bytes": 14033
+    },
+    "random64": {
+      "version": "m2",
+      "clean": {
+        "precision": 0.4742268041237113,
+        "recall": 0.32857142857142857,
+        "macro_f1": 0.6734551953503622,
+        "auroc": 0.8345162618361465,
+        "average_precision": 0.4413391278637972,
+        "false_alarms": 102,
+        "misses": 188,
+        "n": 3750,
+        "positive": 280
+      },
+      "perturbed": {
+        "precision": 0.4845360824742268,
+        "recall": 0.3357142857142857,
+        "macro_f1": 0.6779592616213918,
+        "auroc": 0.8256772334293948,
+        "average_precision": 0.4245748773297288,
+        "false_alarms": 100,
+        "misses": 186,
+        "n": 3750,
+        "positive": 280
+      },
+      "drift": {
+        "precision": 0.4955357142857143,
+        "recall": 0.3964285714285714,
+        "macro_f1": 0.7000837213101364,
+        "auroc": 0.679134417455743,
+        "average_precision": 0.3492566240244187,
+        "false_alarms": 113,
+        "misses": 169,
+        "n": 3750,
+        "positive": 280
+      },
+      "efficiency": {
+        "p50_ms": 0.04202600001690371,
+        "p90_ms": 0.07242789998826993,
+        "rows_per_second": 7310.525614359658,
+        "process_rss_mib": 416.21484375,
+        "rss_before_mib": 416.21484375,
+        "parameter_bytes": 880
+      },
+      "checkpoint_bytes": 14033
+    },
+    "full": {
+      "version": "full-c5",
+      "clean": {
+        "precision": 0.5747663551401869,
+        "recall": 0.4392857142857143,
+        "macro_f1": 0.7312887392067643,
+        "auroc": 0.9584540963359408,
+        "average_precision": 0.6387212928997058,
+        "false_alarms": 91,
+        "misses": 157,
+        "n": 3750,
+        "positive": 280
+      },
+      "perturbed": {
+        "precision": 0.5627906976744186,
+        "recall": 0.43214285714285716,
+        "macro_f1": 0.7263859148227456,
+        "auroc": 0.9572097571016879,
+        "average_precision": 0.6336456977051338,
+        "false_alarms": 94,
+        "misses": 159,
+        "n": 3750,
+        "positive": 280
+      },
+      "drift": {
+        "precision": 0.48743718592964824,
+        "recall": 0.3464285714285714,
+        "macro_f1": 0.6822089651118223,
+        "auroc": 0.9594637710992178,
+        "average_precision": 0.5795089895547969,
+        "false_alarms": 102,
+        "misses": 183,
+        "n": 3750,
+        "positive": 280
+      },
+      "efficiency": {
+        "p50_ms": 0.039888499998141924,
+        "p90_ms": 0.052486400068119124,
+        "rows_per_second": 20960.724758140903,
+        "process_rss_mib": 416.21875,
+        "rss_before_mib": 416.21875,
+        "parameter_bytes": 880
+      },
+      "checkpoint_bytes": 4813
+    }
+  },
+  "baseline_sha256": "bdd8ac65eab66b970d40af17589690be81a1458965cb4e857f8a08e34e8ccc6b",
+  "baseline_bytes": 14033,
+  "gate_clean_macro_f1_floor": 0.6635625435065524
+}
