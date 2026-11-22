@@ -1,0 +1,14 @@
+{
+  "idle": {
+    "requests": 1000,
+    "p50_ms": 0.0339695000093343,
+    "p90_ms": 0.03823229994850408
+  },
+  "concurrent": {
+    "requests": 4666,
+    "p50_ms": 0.1361069998893072,
+    "p90_ms": 0.38066850004270236
+  },
+  "concurrent_trials": 3,
+  "scope": "warmed model-only scoring of pre-scaled rows"
+}

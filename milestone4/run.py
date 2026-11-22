@@ -15,9 +15,9 @@ import pandas as pd
 import torch
 
 ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT.parent / "milestone3"))
-from monitor import psi
-from run import (arrays, autoencoder, benchmark, bundle, checkpoint, evaluate, features, frames,
+sys.path.insert(0, str(ROOT.parent))
+from milestone3.monitor import psi
+from milestone3.run import (arrays, autoencoder, benchmark, bundle, checkpoint, evaluate, features, frames,
                  hardware, original, rss_mib, score, standardize, threshold)
 
 SEED = 64504

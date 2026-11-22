@@ -7,7 +7,6 @@ import pandas as pd
 from sklearn.metrics import average_precision_score, f1_score
 from scipy.stats import wasserstein_distance
 
-from run import BASE, OUT, arrays, features, frames, original, sanitized, score, shifted, standardize, threshold
 
 
 def psi(reference, current):
@@ -20,6 +19,8 @@ def psi(reference, current):
 
 
 def main():
+    from run import BASE, OUT, arrays, features, frames, original, sanitized, score, shifted, standardize, threshold
+
     positions = np.argsort(frames["test"].timestamp_seconds.to_numpy())
     truth = frames["test"].anomaly.to_numpy()
     rows = []
